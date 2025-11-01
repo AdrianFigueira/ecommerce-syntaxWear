@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ecommerce - SyntaxWear</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components/product-grid.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>SyntaxWear</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Destaque do Dia</h2>
+      </div>
+    </section>
+
+    <section class="products container">
+      <h3>Produtos</h3>
+      <div class="product-grid">
+        <!-- product cards aqui -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> SyntaxWear</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
