@@ -1,5 +1,47 @@
-/* header.css - LIMPO
-	Conteúdo de estilos removido por solicitação.
-*/
+.header {
+	background-color: #ffffff;
+	position: fixed;
+	top: 20px;
+	right: 50%;
+	width: calc(100% - 40px);
+	transform: translateX(50%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 999;
+	padding: 20px 28px;
+	border-radius: 15px;
+}
 
-/* Arquivo limpo */
+.logo img {
+	height: 40px;
+}
+
+.center-nav ul,
+.rigth-nav ul {
+	display: flex;
+	gap: 2.5rem;
+}
+
+.center-nav ul li a,
+.rigth-nav ul li a {
+	font-size: 1.25rem;
+	font-weight: 400;
+	font-style: regular;
+}
+.center-nav ul li:hover a,
+.rigth-nav ul li:hover a {
+	color: #7c3aed;
+}
+
+.rigth-nav ul{
+	align-items: center;
+}
+
+.rigth-nav img {
+	height: 1.5rem;
+	gap: 2.5rem;;
+}
+.rigth-nav a:hover img {
+	opacity: 0.7;
+}
