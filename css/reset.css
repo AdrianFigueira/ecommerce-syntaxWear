@@ -1,0 +1,74 @@
+
+
+/* 1. Use a more intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+/* 3. Set core root defaults */
+html, body {
+  height: 100%;
+}
+
+/* 4. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Remove built-in form typography */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 6. Make inputs readable on small devices */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* 7. Improve accessibility for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 8. Make sure the body has sensible defaults */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 9. Remove list styles on ul, ol elements */
+ul[role="list"], ul, ol {
+  list-style: none;
+}
+
+/* 10. Anchor defaults */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 11. Contenteditable */
+[contenteditable]:focus {
+  outline: none;
+}
+
+/* 12. Table defaults */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End of reset */

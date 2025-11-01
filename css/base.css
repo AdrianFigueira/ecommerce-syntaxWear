@@ -1,6 +1,5 @@
-/* base.css - LIMPO
-   Conteúdo de estilos removido por solicitação.
-   Adicione estilos novamente conforme necessário.
-*/
-
-/* Arquivo limpo */
+body {
+   font-family: var(--fonte-principal);
+   background-color: #ffffff;
+   color:#333333;
+}
