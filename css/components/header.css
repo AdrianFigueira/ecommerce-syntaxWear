@@ -1,9 +1,9 @@
 .header {
 	background-color: #ffffff;
 	position: fixed;
-	top: 20px;
+	top: 60px;
 	right: 50%;
-	width: calc(100% - 40px);
+	width: calc(100% - 120px);
 	transform: translateX(50%);
 	display: flex;
 	justify-content: space-between;
@@ -14,8 +14,8 @@
 }
 
 .logo img {
-	height: 32px;
-	width: 134px;
+	height: 48px;
+	width: 150px;
 }
 
 .center-nav ul,
