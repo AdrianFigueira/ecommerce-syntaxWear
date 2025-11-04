@@ -3,18 +3,11 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 300px);
     gap: 30px;
-    margin-top: 40px;
+    margin: 40px 0;
     grid-template-areas:
         "principal principal topR topR"
         "principal principal midL midR"
         "bottomL bottomL midL bottomR";
-}
-
-.card {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
 }
 
 .principal {

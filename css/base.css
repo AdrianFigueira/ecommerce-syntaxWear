@@ -1,6 +1,6 @@
 body {
    font-family: var(--fonte-principal);
-   background-color: #1f1f1f1f;
+   background-color: #ffffff;
    color:#333333;
 }
 
@@ -17,4 +17,16 @@ main {
    font-weight: 500;
 	font-size: 20px;
    color: #ffffff;
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.footer-color-title-sections {
+   color: #EDEDED;
+   font-weight: 400;
 }
