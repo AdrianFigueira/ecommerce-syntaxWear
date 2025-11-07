@@ -33,7 +33,7 @@
 	font-weight: 500;
 	line-height: 32px;
 	letter-spacing: 3px;
-	width: 388px;
+	width: 100%;
 	margin-top: 10px;
 }
 
@@ -67,3 +67,36 @@
 	background-color: #6329A2;
 	color:#ffffff;
 }
+
+@media (max-width: 768px ) {
+	.hero {
+	height: 650px;
+	background-image: url(../../images/products/principal-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+	}
+	.hero-overlay {
+		max-width: 330px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.hero-content {
+		max-width: 330px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.hero-content .title {
+		font-size: 20px;
+	}
+	.hero-content .subtitle {
+		font-size: 1.25rem;
+	}
+	
+	.btn-outline, .btn-filled {
+		display: flex;
+		font-size: 1.2rem;
+		padding: 5px 20px ;
+		align-items: center;
+	}
+} 

@@ -6,9 +6,15 @@ body {
 
 main {
    max-width: 1360px;
-   margin: 0 auto;;
+   margin: 0 auto;
    padding: 2.5rem 0 0;
 }
+@media (max-width: 1280px) {
+   main {
+      padding: 0.625rem ;
+   }
+}
+
 
 .btn {
 	border-radius: 30px;
@@ -27,6 +33,6 @@ main {
 }
 
 .footer-color-title-sections {
-   color: #EDEDED;
-   font-weight: 400;
+   color: #9f9f9f;
+   font-weight: 600;
 }
